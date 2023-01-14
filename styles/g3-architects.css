@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    /* background-color: #FF900E; */
+    background: rgba(255, 144, 14, 0.1);
+    padding: 1rem 0;
+    /* height: 120vh; */
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+nav h2{
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 1rem;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    text-align: center;
+    padding-top: 1rem;
+}
+.btn{
+    padding: 12px 24px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0.5rem 0 1.5rem 0;
+}
+img{
+    width: 100%;
+}
+.banner .title{
+    font-size: 2.5rem;
+}
+.banner .desc{
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 1rem 0 0.5rem 0;
+}
